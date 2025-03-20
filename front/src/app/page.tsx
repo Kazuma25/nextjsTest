@@ -1,12 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-3xl font-bold underline text-red-400">
-        Hello world!
-      </h1>
-    </div>
-  );
+      <div className="">
+        <Input className="w-150"/>
+      </div>
+  );  
 }
