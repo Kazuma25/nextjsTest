@@ -18,6 +18,7 @@ export default async function Page() {
               <Link href="/admin/recettes/3" className={buttonVariants({size: "lg", variant:"outline" })}>Recette 3</Link>
               <Link href="/admin/recettes/4" className={buttonVariants({size: "lg", variant:"outline" })}>Recette 4</Link>
             </CardContent>
+            <Link href="/admin/recettes/new" className={buttonVariants({size: "lg", variant:"outline" })}>ajouter une recettes</Link>
           </Card>
         </div>
     );  

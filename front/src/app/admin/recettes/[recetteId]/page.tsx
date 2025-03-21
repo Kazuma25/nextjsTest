@@ -2,7 +2,7 @@ import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default async function Page(props: {
   params: Promise<{
-    citationId: string;
+    recetteId: string;
   }>;
   searchParams: Promise<Record<string,string | string[]>>;
 }) {
